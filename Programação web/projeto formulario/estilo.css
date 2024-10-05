@@ -1,0 +1,98 @@
+h1{
+	font-family: Arial Black;
+	color: #2e3f37;
+	margin:20px 10px 10px 40px;
+	text-shadow: white 1em 1em 1em 1em;
+	
+	
+}
+h2{
+	font-family: Arial Black;
+	color: #2e3f37;
+	margin:20px 0px 10px 50px;
+	font-weight: 10px;
+}
+.formulario{
+	background-color: darkgray;
+	height: 450px;
+	width: 500px;
+	margin: auto;
+	border-radius: 5% 5% 18% 18%;
+	box-shadow:20 20 #2e3f37 ;
+	
+	
+}
+.rotulos{
+	font-family: Arial Black;
+	color: #2e3f37;
+	margin: 0px 0px 0px 0px;
+	position: ;
+	border-radius: 5% 5% 18% 18%;
+	
+	
+	
+	
+}
+
+	
+
+.entrada{
+	height:25px;
+	width:300px;
+	margin: 100px 100px 100px 100px;
+	position: relative;
+	
+	
+}
+#mensagem{
+	
+	height:100px;
+	width:300px;
+	margin: 0px 0px 0px 130px;
+}
+
+#botao{
+	margin: 0px 0px 0px 150px;
+	height:25px;
+	width: 200px;
+	background-color: #2e3f37;
+	color: white;
+	border-color: black;
+	border-style: groove 20;
+	font-family: fantasy;
+	
+	
+}
+
+#email{
+	font-family: Arial Black;
+	color: #2e3f37;
+	margin: 0px 0px 0px 50px;	
+	
+}
+#nome{
+	font-family: Arial Black;
+	color: #2e3f37;
+	margin: 0px 0px 0px 48px;	
+	
+}
+#assunto{
+	font-family: Arial Black;
+	color: #2e3f37;
+	margin: 0px 0px 0px 30px;	
+
+	
+}
+b{
+	margin-left: 15px;
+	
+
+
+}
+.titulo2{
+
+	font-size: 20px;
+	margin: 5px 20px 10px 100px;
+	
+
+}

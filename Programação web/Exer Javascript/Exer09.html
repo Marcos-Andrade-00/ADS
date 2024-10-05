@@ -1,0 +1,22 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let  salario, salario_aumento;
+		salario = parseFloat(prompt("Digite o salario atual do funcionario: "));
+		if (salario < 2500)
+		{
+			salario_aumento = (salario+(salario * 0,25));
+			alert("O antigo salario do funcionario era R$" + salario + " com o aumento passa a ser de R$" +salario_aumento) ;
+		}
+        else
+		{
+			alert("Este funcionario não faz jus ao aumento!");
+		}
+    </script>
+</body>
+</html>

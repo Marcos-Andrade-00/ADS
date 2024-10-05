@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario do site</title>
+</head>
+<body>
+    <form name="Formulario" method="post" action="">
+        Nome:
+        <input type="text" name="Nome" required="required" placeholder="Digite seu Nome" size="50"/>
+        <br/>
+        <br/>
+        Senha:
+        <input type="password" name="senha" placeholder="Digite sua senha" autofocus/>
+        <br/>
+        <br/>
+        Email:
+        <input type="email" name="usermail"/>
+        <br/>
+        URL
+        <input type="url" name="homepage"/>
+        <br/>
+        Oculto: <input name="oculto" type="hidden" value="algumacoisa"/>
+        <br/>
+        Carros
+        <br/>   
+        <input type="checkbox" name="Carros" value="Camaro"/> Chevrollet Camaro
+        <br>
+        <img src="camaro.avif" width="100px" height="100px"/>   
+        <br/>
+        <input type="checkbox" name="Carros" value="Ferrari"/> Ferarri Enzo
+        <br>
+        <img src="ferarri.jpg" width="100px" height="100px"/>
+        <br/>
+        <br/>
+        <input name="Botão" type="button" value="Clique aqui" onclick="alert('oi')" />
+        <br/>
+        <br/>
+        Escolha um arquivo
+        <input name="arquivo" type="file" />
+        <br/>
+        <br/>
+        <input type="image" name="imagem" src="buy.png" width="100px" height="100px" />
+        <br/>
+        Sexo:
+        <br/>
+        <input name="sexo" type="radio"  value="F"/>Feminino
+        <br/>
+        <input name="sexo" type="radio"  value="M"/>Masculino
+        <br/>
+        <select name="" id="">
+            <option value="Java">Java</option>
+            <option value="PHP">PHP</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+        </select>
+        <br/>
+        <br/>
+        <textarea rows="8"  cols="70"></textarea>
+        <br/>
+        <br/>
+        <button type="button">
+            <img src="buy.png" width="50px" height="50px"/> 
+        </button>
+        <br/>
+        <input type="submit" value="Enviar" />
+
+    </form>
+</body>
+</html>

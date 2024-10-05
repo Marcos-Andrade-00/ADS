@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="" method="post" class="formulario"  >
+        <h1>Formulário de Contato</h1>
+            <h2 class="titulo2"> Preencha todos os campos.</h2>
+        
+        <div>
+            <div class="rotulos"><b>Nome :</b> 
+            <input type="text" name="nome" id="nome" placeholder="Nome completo" class="entrada" required="required"/>
+            </div>
+        </div>
+		<br/>
+        <div>
+            <div class="rotulos"><b>Email :</b> 
+            <input type="email" name="email" id="email" placeholder="Email Valido" class="entrada" required="required"/>
+            </div>
+        </div>
+		<br/>
+        <div>
+            <div class="rotulos"><b>Assunto :</b>
+            <select name="opcoes" class="entrada" required="required" id="assunto">
+                <option value=></option>    
+                <option value="Duvidas do produto">Duvidas do produto</option>
+                <option value="Atraso na Entrega">Atraso na entrega</option>
+            </select>
+        </div>
+		<br/>
+        <div>
+            <div class="rotulos"><b>Mensagem :</b> 
+            <textarea rows="8" cols="50 "id="mensagem" name="mensagem" placeholder="Sua mensagem" class="entrada" required="required"></textarea>
+            </div>
+        </div>
+        <div>
+            <div class="rotulos">&nbsp;</div>
+			
+            <input type="button" value="Enviar" name="botao" id="botao">
+			
+            
+        </div>
+    </form>  
+    
+</body>
+</html>

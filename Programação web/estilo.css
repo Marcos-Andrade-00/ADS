@@ -1,0 +1,75 @@
+h1{
+	font-family: Arial Black;
+	color: #f00;
+	margin:20px 10px 10px 40px;
+	
+	
+}
+h2{
+	font-family: Arial Black;
+	color: #f00;
+	margin:20px 0px 10px 50px;
+	
+}
+.formulario{
+	background-color:#00f;
+	height: 450px;
+	width: 500px;
+	margin: auto;
+	
+	
+}
+.rotulos{
+	font-family: Arial Black;
+	color: #f00;
+	margin: 0px 0px 0px 0px;
+	position: ;
+	
+	
+	
+	
+}
+
+	
+}
+.entrada{
+	height:25px;
+	width:200px;
+	margin: 100px 100px 100px 100px;
+	position: relative;
+	
+	
+}
+#mensagem{
+	
+	height:100px;
+	width:300px;
+	margin: 0px 0px 0px 120px;
+}
+
+#botao{
+	margin: 0px 0px 0px 200px;
+	
+	
+}
+
+#email{
+	font-family: Arial Black;
+	color: #f00;
+	margin: 0px 0px 0px 20px;	
+	
+}
+#nome{
+	font-family: Arial Black;
+	color: #f00;
+	margin: 0px 0px 0px 20px;	
+	
+}
+#assunto{
+	font-family: Arial Black;
+	color: #f00;
+	margin: 0px 0px 0px 0px;	
+
+	
+}
+b{text-align:right;}

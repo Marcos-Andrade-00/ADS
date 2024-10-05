@@ -1,0 +1,202 @@
+<!--EXERCICIO 01--> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let num;
+        num = parseInt(prompt("Digite um número inteiro:" ) )
+        alert("O dobro desse número é: " + num*2);
+    </script>
+</body>
+</html>
+
+<!--EXERCICIO 02--> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let a , b;
+        a = parseInt(prompt("Digite um numero: "));
+        b =parseInt(prompt("Digite outro numero:"));
+        alert("A soma desses números é: " + (a + b));
+    </script>
+</body>
+</html>
+
+<!--EXERCICIO 03--> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let a;
+        a = parseInt(prompt("Digite um numero: "));
+        alert("O quadrado desse número é: " + (a*a));
+    </script>
+</body>
+</html>
+
+<!--EXERCICIO 04--> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let a , b;
+        a = parseFloat(prompt("Digite a primeira nota: "));
+        b =parseFloat(prompt("Digite a segunda nota:"));
+		c =parseFloat(prompt("Digite a terceira nota:")); 
+        alert("A média deste aluno é: " + ((a+b+c)/3) );
+    </script>
+</body>
+</html>
+
+<!--EXERCICIO 05--> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let a , b, c, soma;
+        a = parseInt(prompt("Digite um numero inteiro: "));
+        b =parseInt(prompt("Digite outro numero inteiro:"));
+		c =parseInt(prompt("Digite o ultimo numero inteiro:")); 
+        soma = a+b+c;
+		document.write("A soma dos números é: " + soma);
+    </script>
+</body>
+</html>
+
+<!--EXERCICIO 06--> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let base, altura, area;
+        base = parseInt(prompt("Digite o tamanho da base do triângulo em (cm): "));
+        altura =parseInt(prompt("Digite o tamanho da altura do triângulo em (cm):"));
+		area = (base*altura)/2
+        alert("A area deste triângulo é: " + area) ;
+    </script>
+</body>
+</html>
+
+<!--EXERCICIO 07--> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let  ano;
+        let nome = prompt("Digite o seu nome:  ");
+        ano = parseInt(prompt("Digite o ano do seu nascimento: "));
+        alert("Seu nome é: " + nome + ", nascido no ano de: " + ano) ;
+    </script>
+</body>
+</html>
+
+<!--EXERCICIO 08--> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let  degrau, altura, quant;
+		altura = parseFloat(prompt("Digite a altura que deseja alcançar com a escada em metros: "));
+        degrau = parseFloat(prompt("Digite a altura do degrau em metros: "));
+        quant = (altura/degrau);
+        alert("A escada terá que ter " + quant + " degraus" ) ;
+    </script>
+</body>
+</html>
+
+<!--EXERCICIO 09--> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let  salario, salario_aumento;
+		salario = parseFloat(prompt("Digite o salario atual do funcionario: "));
+		if (salario < 2500)
+		{
+			salario_aumento = (salario+(salario * 0,25));
+			alert("O antigo salario do funcionario era R$" + salario + " com o aumento passa a ser de R$" +salario_aumento) ;
+		}
+        else
+		{
+			alert("Este funcionario não faz jus ao aumento!");
+		}
+    </script>
+</body>
+</html>
+
+<!--EXERCICIO 10--> 
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <script>
+        let  n1, n2, n3, n4;
+		n1 = parseFloat(prompt("Digite a primeira nota do aluno: "));
+		n2 = parseFloat(prompt("Digite a segunda nota do aluno: "));
+		n3 = parseFloat(prompt("Digite a terceira nota do aluno: "));
+		n4 = parseFloat(prompt("Digite a quarta nota do aluno: "));
+		media= (n1+n2+n3+n4)/4;
+		if (media > 6){
+			alert("aprovado") ;
+		}
+		else if (media == 6){
+			alert("recuperação");
+		}
+		else {
+			alert("reprovado");
+		}
+		
+	
+    </script>
+</body>
+</html>
