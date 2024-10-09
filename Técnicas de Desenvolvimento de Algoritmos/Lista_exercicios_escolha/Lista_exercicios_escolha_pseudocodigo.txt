@@ -1,0 +1,127 @@
+algoritmo Exercicio1
+	real salario
+	inteiro cargo
+	inicio
+		escreva("Infome o cargo do funcionário:")
+		escreva("\n 1- Escriturario \n 2 - Secretario \n 
+		3- Caixa \n 4- Gerente \n 5 - Diretor ")
+		leia(cargo)
+		escreva("Infome o salario atual do funcionário: ")
+		leia(salario)
+		escolha(cargo)
+			caso 1: escreva(" O novo salario desse Escriturario sera de: R$ " + (salario + (salario*0.50)));
+            pare;
+            caso 2: escreva(" O novo salario desse Secretario sera de: R$ " + (salario + (salario*0.35)));
+            pare;
+			caso 1: escreva(" O novo salario desse Caixa sera de: R$ " + (salario + (salario*0.20)));
+            pare;
+			caso 1: escreva(" O novo salario desse Gerente sera de: R$ " + (salario + (salario*0.10)));
+            pare;
+			caso 1: escreva(" O Diretor não recebera aumento ");
+            pare;
+            padrão: escreva("Opcão invalida ");
+	fim
+
+algoritmo Exercicio2
+	literal placa
+	inteiro ultimo
+	inicio
+		escreva("Informe a placa do seu carro:")
+		leia(placa)
+		se(comprimento da placa ()==7){ ultimo = pegar o valor numerico (placa(6)}
+		escolha(ultimo)
+			caso 1,2: escreva("O rodizio do seu veículo sera toda segunda-feira ");
+            pare;
+            caso 3,4: escreva("O rodizio do seu veículo sera toda terça-feira ");
+            pare;
+			caso 5,6: escreva("O rodizio do seu veículo sera toda quarta-feira");
+            pare;
+			caso 7,8: escreva("O rodizio do seu veículo sera toda quinta-feira);
+            pare;
+			caso 9,10: escreva("O rodizio do seu veículo sera toda sexta-feira");
+            pare;
+            padrão: escreva("Opcão invalida ");
+	fim
+	
+algoritmo Exercicio3
+	inteiro num1, num2, op
+	inicio
+		escreva("Digite o primeiro número:  ");
+        leia(num1);
+        escreva("Digite o segundo número:  ");
+        leia (num2);
+        escreva("Informe a operação pretendida \n 1- SOMA \n 2 - SUBTRAÇÃO \n 3 -DIVISÃo \n 4- MULTIPLICAÇÃO  ");
+        leia (op);
+        escolha (op)
+            caso 1: escreva("A soma dos números é: " + (num1+num2));
+            pare;
+            caso 2: escreva("A subtração dos números é: " + (num1-num2));
+            pare;
+            caso 3:escreva("A divisão dos números é: " + (num1/num2));
+            pare;
+            caso 4: escreva("A multiplicação dos números é: " + (num1*num2));
+            oare;
+			padrao: escreva("Opcão invalida ");
+	fim	
+	
+algoritmo Exercicio4
+	inteiro num
+	inicio	
+		escreva("Digite um número inteiro: ");
+        leia(num)
+        switch (num)
+            caso 1: escreva("Janeiro");
+            pare;
+            caso 2: escreva("Fevereiro");
+            pare;
+            caso 3: escreva("Março");
+            pare;
+            caso 4: escreva("Abril");
+            pare;
+            caso 5: escreva("Maio");
+            pare;
+            caso 6: escreva("Junho");
+            pare;
+            caso 7: escreva("Julho");
+            pare;
+            caso 8: escreva("Agosto");
+            pare;
+            caso 9: escreva("Setembro");
+            pare;
+            caso 10: escreva("Outubro");
+            pare;
+            caso 11: escreva("Novembro");
+            pare;
+            caso 12: escreva("Dezembro");
+            pare;
+           
+            padrao: escreva("Não existe mês com este número ");
+	fim			
+
+algoritmo Exercicio5
+	inteiro opc, dest
+	inicio	
+		escreva(" Selecione o o tipo de passagem:");
+        escreva("\n 1- Ida \n 2- Ida e volta ");
+        leia(opc) 
+        escreva("Infome o o destino desejado:");
+        escreva("\n 1- Região Norte \n 2 - Região Nordeste \n 3- Região Centro-Oeste \n 4- Região Sul ");
+        leia(dest);
+        escolha (opc) {
+            caso 1:
+                escolha(dest){
+                    caso 1 -> escolha(" A passagem de ida custará: R$ 500 ");
+                    caso 2 -> escolha(" A passagem de ida custará: R$ 350 ");
+                    caso 3 -> escolha(" A passagem de ida custará: R$ 350 ");
+                    caso 4 -> escolha(" A passagem de ida custará: R$ 600 ");
+                    padrão -> escolha("Opcão invalida ");
+                    
+                }  
+                pare;
+            caso 2:
+                escolha(dest){
+                    caso 1 -> escolha(" A passagem de ida e volta custará: R$ 900 ");
+                    caso 2 -> escolha(" A passagem de ida e volta custará: R$ 650 ");
+                    caso 3 -> escolha(" A passagem de ida e volta custará: R$ 600 ");
+                    caso 4 -> escolha(" A passagem de ida e volta custará: R$ 550 ");
+                    padrao -> escolha("Opcão invalida ");
