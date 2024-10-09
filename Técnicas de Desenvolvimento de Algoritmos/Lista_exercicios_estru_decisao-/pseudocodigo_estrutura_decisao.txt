@@ -1,0 +1,89 @@
+Exercicio 01
+
+	algoritmo Exercicio1
+	inicio
+		inteiro num
+		escreva("Digite um número de 0 a 9")
+		leia(num)
+		se (num>= 0 e num<10){
+			escreva("valor correto")
+		}
+		senão{
+			escreva("valor incorreto")
+		}	
+	fim	
+Exercicio 02
+
+	algoritmo Exercicio2
+	inicio
+		inteiro horas , turno
+		escreva("Informe a quantidade de horas trabalhadas: ")
+		leia(horas)
+		escreva("Informe o seu turno de seriço:1- Diurno 2- Noturno")
+		leia(turno)
+		se (turno==2){
+			escreva("Sua diaria sera de R$ " + (horas * 45)")
+		}
+		senão{
+			escreva("Sua diaria sera de R$ " + (horas*37.50)")
+		}
+	fim
+
+Exercicio 03
+
+	algoritmo Exercicio3
+	inicio
+		inteiro bolsa, tempo
+		escreva("Informe o valor da bolsa em reais")
+		leia(bolsa)
+		escreva("Informe o tempo de estagio em anos")
+		leia(tempo)
+		se (bolsa >= 750 e bolsa<950 e tempo >= 2){
+			escreva("Participara do treinamento")
+		}
+		senão{
+			escreva("não participara")
+		}	
+	fim	
+
+Exercicio 04
+
+	algoritmo Exercicio4
+	inicio
+		real delta, x, y
+		escreva("Digite o valor de a: ")
+		leia(a)
+		escreva("Digite o valor de b: ")
+		leia(b)
+		escreva("Digite o valor de c: ")
+		leia(c)
+		delta = (b*b) - (4*a*c)
+		se (delta >= 0){
+			x = ((-1 * b) + raiz(delta))/(2 * a);
+			y = ((-1 * b) - raiz(delta))/(2 * a);
+			escreva("as raizes sao: " + x + " e " + y)
+		}
+		senão{
+			escreva("O delta tem valor negativo,
+			logo nao sera possivel calcular sua raiz")
+		}	
+	fim	
+	
+Exercicio 05
+
+	algoritmo Exercicio5
+	inicio
+		inteiro idade
+		escreva("Informe sua idade: ")
+		leia(idade)
+		se (idade <16){
+			escreva("Nao eleitor")
+		}
+		senão se (16 >= idade e idade <= 18  ou idade > 65){
+			escreva("Eleitor facultativo")
+		}	
+		senão se (idade >= 18 && idade <= 65){
+			escreva("Eleitor Obrigatorio")
+		}
+		senão{}
+	fim		
