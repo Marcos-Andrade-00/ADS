@@ -1,0 +1,85 @@
+Exercicio 01
+
+	algoritmo Exercicio1
+	inicio
+		real km, cons, med
+		escreva("Digite a distância percorrida (em km)")
+		leia(km)
+		escreva("Digite a quantidade de combustível consumido (em litros)")
+		leia(cons)
+		med = km/cons
+		escreva("O consumo médio é: " + med + " km/l")
+	fim		
+
+Exercicio 02
+
+	algoritmo Exercicio2
+	inicio
+		inteiro salario, pen
+		escreva("Digite seu salario:")
+		leia(salario)
+		escreva("Digite o numero de pendencias")
+		leia(pen)
+		se(salario > 2500 e pen < 2){
+			escreva("Emprestimo aprovado")
+			}
+		senão{
+			escreva("Empréstimo reprovado")
+		}	
+	fim		
+
+Exercicio 03
+
+	algoritmo Exercicio3
+	inicio
+		real vlr, desc
+		escreva("Digite o valor do produto: R$")
+		leia(vlr)
+		desc = (vlr-(vlr*0.1))
+		escreva("Valor com desconto: R$" +desc)
+	fim		
+	
+Exercicio 04
+
+	algoritmo Exercicio4
+	inicio
+		inteiro pedido
+		escreva("Menu 
+		ESCOLHA O NÚMERO DO SEU LANCHE 
+		[1] - Hamburguer [2] - Cachorro-quente[3] - Batata Frita")
+		leia(pedido)
+		escolha(pedido)
+		caso 1: escreva("Voce escolheu Hamburguer Valor a pagar: R$ 10,00)
+		pare
+		caso 2: escreva("Voce escolheu Cachorro-quente Valor a pagar: R$ 7,00)
+		pare
+		caso 3: escreva("Voce escolheu Batata Friata Valor a pagar: R$ 5,00)
+		pare
+		padrão: escreva(Opção invalida")
+	fim		
+
+Exercicio 05
+
+	algoritmo Exercicio5
+	inicio
+		inteiro qnt_parc, salario, pen
+		real vlr_emp, vlr_parc, qnt_parc
+		
+		escreva("Digite seu salario:")
+		leia(salario)
+		escreva("Digite o numero de pendencias")
+		leia(pen)
+		se(salario > 2500 e pen < 2){
+			escreva("Emprestimo aprovado")
+			escreva("Digite aqui o valor do emprestimo: ")
+			leia(vlr_emp)
+			escreva("E agora, a quantidade de parcelas: ")
+			leia(qnt_parc)
+			vlr_parc = (vlr_emp + (vlr_emp * 0.9))/qnt_parc
+			fin = (vlr_parc * qnt_parc)
+			escreva("As parcelas irão ficar a: R$" + vlr_parc + "totalizando R$" + fin )
+			}
+		senão{
+			escreva("Empréstimo reprovado")
+		}	
+	fim	
